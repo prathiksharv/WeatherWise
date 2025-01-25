@@ -1,70 +1,99 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# WeatherWise: Smarter Weather Insights and Forecasting
 
-## Available Scripts
+WeatherWise is a full-stack weather application that allows users to fetch real-time weather data for their chosen city using APIs. It provides temperature, weather conditions, and other details through a seamless integration of a Python backend and a React frontend.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Features
+- Fetch weather data using the OpenWeather API.
+- User-friendly frontend for input and display.
+- Backend API built with FastAPI.
+- Dynamic communication between the frontend and backend.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
+- **Frontend**: React.js
+- **Backend**: FastAPI (Python)
+- **API Integration**: OpenWeather API
+- **Environment Management**: Python virtual environments (`venv`)
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Steps to Run the Application
 
-### `npm run build`
+### Prerequisites
+1. Install **Node.js** and **npm** (for the React frontend).
+2. Install **Python 3.12+** (for the FastAPI backend).
+3. Set up a virtual environment for Python.
+4. Obtain an API key from the OpenWeather API.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Backend Setup
+1. Clone the repository:
+   ```bash
+   git clone <repository_url>
+   cd WeatherWise/backend
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Set up a Python virtual environment:
+   ```bash
+   python3 -m venv ww_env
+   source ww_env/bin/activate  # On Windows, use ww_env\Scripts\activate
+   ```
 
-### `npm run eject`
+3. Install backend dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. Add your OpenWeather API key to the `.env` file:
+   ```
+   OPENWEATHER_API_KEY=your_api_key
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5. Run the FastAPI server:
+   ```bash
+   uvicorn main:app --reload
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The backend server should now be running at `http://127.0.0.1:8000`.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+### Frontend Setup
+1. Navigate to the `frontend` directory:
+   ```bash
+   cd ../frontend
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. Start the React development server:
+   ```bash
+   npm start
+   ```
 
-### Code Splitting
+The frontend should now be running at `http://localhost:3000`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+### Testing the Application
+1. Open your browser and visit `http://localhost:3000`.
+2. Enter a city name in the input field and click "Search" to view weather details fetched from the API.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+### Future Enhancements
+- Add error handling for invalid city names or API issues.
+- Implement additional features like historical weather data.
+- Add support for user authentication and personalization.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Enjoy using WeatherWise! 🌤️
