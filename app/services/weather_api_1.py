@@ -1,10 +1,19 @@
 import requests
+from app.config import OPENWEATHER_API_KEY  # Import API key from config
 
-API_KEY = "your_api_key_1"  # Replace with your API key
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
 
 def get_weather_api_1(location: str):
-    params = {"q": location, "appid": API_KEY, "units": "metric"}
+    """
+    Fetches weather data from OpenWeather API for a given location.
+
+    Args:
+        location (str): City or location name.
+
+    Returns:
+        dict: Weather data containing temperature and description.
+    """
+    params = {"q": location, "appid": OPENWEATHER_API_KEY, "units": "metric"}
     response = requests.get(BASE_URL, params=params)
     if response.status_code == 200:
         data = response.json()
@@ -13,4 +22,4 @@ def get_weather_api_1(location: str):
             "description": data["weather"][0]["description"],
         }
     else:
-        raise Exception(f"Error from API 1: {response.text}")
+        raise Exception(f"Error from OpenWeather API: {response.text}")

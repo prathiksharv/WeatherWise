@@ -11,8 +11,11 @@ def home():
 @app.get("/weather/{location}")
 def get_weather(location: str):
     try:
+        # Call the respective API services
         weather_1 = get_weather_api_1(location)
         weather_2 = get_weather_api_2(location)
+
+        # Return combined weather data
         return {
             "location": location,
             "api_1_data": weather_1,
@@ -20,3 +23,4 @@ def get_weather(location: str):
         }
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
