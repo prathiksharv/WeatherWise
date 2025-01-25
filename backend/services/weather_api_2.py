@@ -1,5 +1,5 @@
 import requests
-from app.config import WEATHERAPI_API_KEY  # Import API key from config
+from backend.config import WEATHERAPI_API_KEY  # Import API key from config
 
 BASE_URL = "https://api.weatherapi.com/v1/current.json"
 

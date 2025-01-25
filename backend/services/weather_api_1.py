@@ -1,5 +1,5 @@
 import requests
-from app.config import OPENWEATHER_API_KEY  # Import API key from config
+from backend.config import OPENWEATHER_API_KEY  # Import API key from config
 
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
 

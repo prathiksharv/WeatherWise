@@ -1,6 +1,6 @@
 from fastapi import FastAPI, HTTPException
-from app.services.weather_api_1 import get_weather_api_1
-from app.services.weather_api_2 import get_weather_api_2
+from backend.services.weather_api_1 import get_weather_api_1
+from backend.services.weather_api_2 import get_weather_api_2
 
 app = FastAPI()
 
