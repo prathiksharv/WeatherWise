@@ -1,0 +1,98 @@
+2025-01-26 16:39:00,106 - INFO - Received weather request for city: New York
+2025-01-26 16:39:00,255 - INFO - Successfully fetched data from API 1 for city: New York
+2025-01-26 16:39:00,533 - INFO - Successfully fetched data from API 2 for city: New York
+2025-01-26 16:39:00,533 - INFO - Successfully preprocessed data for city: New York
+2025-01-26 16:39:55,508 - INFO - Received weather request for city: Chicago
+2025-01-26 16:39:55,714 - INFO - Successfully fetched data from API 1 for city: Chicago
+2025-01-26 16:39:55,968 - INFO - Successfully fetched data from API 2 for city: Chicago
+2025-01-26 16:39:55,968 - INFO - Successfully preprocessed data for city: Chicago
+2025-01-26 16:39:55,968 - INFO - Preprocessed data: {'temperature': {'api_1': -0.28, 'api_2': -0.6}, 'feels_like': {'api_1': -5.04, 'api_2': -5.1}, 'humidity': {'api_1': 51, 'api_2': 39}, 'pressure': {'api_1': 1026, 'api_2': 1025.0}, 'wind_speed': {'api_1': 4.63, 'api_2': 14.8}, 'description': {'api_1': 'broken clouds', 'api_2': 'Partly cloudy'}, 'summary': 'API 1: broken clouds (-0.28°C, Humidity: 51%)\nAPI 2: Partly cloudy (-0.6°C, Humidity: 39%)'}
+2025-01-26 16:57:04,880 - INFO - City selected: Seattle
+2025-01-26 16:57:04,892 - ERROR - Error fetching weather data for Seattle: AxiosError: Request failed with status code 404
+2025-01-26 16:57:06,634 - INFO - City selected: Seattle
+2025-01-26 16:57:06,639 - ERROR - Error fetching weather data for Seattle: AxiosError: Request failed with status code 404
+2025-01-26 17:05:28,476 - INFO - Received weather request for city: Seattle
+2025-01-26 17:05:28,888 - INFO - Fetched weather data for Seattle from both APIs
+2025-01-26 17:05:28,888 - INFO - Preprocessed weather data for Seattle
+2025-01-26 17:05:33,083 - INFO - City selected: New York
+2025-01-26 17:05:33,086 - INFO - Received weather request for city: New York
+2025-01-26 17:05:33,461 - INFO - Fetched weather data for New York from both APIs
+2025-01-26 17:05:33,461 - INFO - Preprocessed weather data for New York
+2025-01-26 17:05:33,465 - INFO - Weather data fetched successfully for New York
+2025-01-26 17:05:33,483 - INFO - Displaying weather data for city: New York
+2025-01-26 17:05:33,484 - INFO - Displaying weather data for city: New York
+2025-01-26 17:05:33,486 - INFO - Displaying weather data for city: New York
+2025-01-26 17:05:33,486 - INFO - Displaying weather data for city: New York
+2025-01-26 17:06:17,482 - INFO - City selected: Boston
+2025-01-26 17:06:17,484 - INFO - Received weather request for city: Boston
+2025-01-26 17:06:17,921 - INFO - Fetched weather data for Boston from both APIs
+2025-01-26 17:06:17,921 - INFO - Preprocessed weather data for Boston
+2025-01-26 17:06:17,925 - INFO - Weather data fetched successfully for Boston
+2025-01-26 17:06:17,935 - INFO - Displaying weather data for city: Boston
+2025-01-26 17:06:17,935 - INFO - Displaying weather data for city: Boston
+2025-01-26 17:06:17,937 - INFO - Displaying weather data for city: Boston
+2025-01-26 17:06:17,938 - INFO - Displaying weather data for city: Boston
+2025-01-26 17:08:27,944 - INFO - Displaying weather data for city: Boston
+2025-01-26 17:08:27,945 - INFO - Displaying weather data for city: Boston
+2025-01-26 17:08:27,948 - INFO - Displaying weather data for city: Boston
+2025-01-26 17:08:27,948 - INFO - Displaying weather data for city: Boston
+2025-01-26 17:08:40,439 - INFO - City selected: San Francisco
+2025-01-26 17:08:40,448 - INFO - Received weather request for city: San Francisco
+2025-01-26 17:08:40,870 - INFO - Fetched weather data for San Francisco from both APIs
+2025-01-26 17:08:40,870 - INFO - Preprocessed weather data for San Francisco
+2025-01-26 17:08:40,876 - INFO - Weather data fetched successfully for San Francisco [object Object]
+2025-01-26 17:08:40,893 - INFO - Displaying weather data for city: San Francisco
+2025-01-26 17:08:40,893 - INFO - Displaying weather data for city: San Francisco
+2025-01-26 17:08:40,896 - INFO - Displaying weather data for city: San Francisco
+2025-01-26 17:08:40,897 - INFO - Displaying weather data for city: San Francisco
+2025-01-26 17:11:14,514 - INFO - Displaying weather data for city: San Francisco
+2025-01-26 17:11:14,515 - INFO - Displaying weather data for city: San Francisco
+2025-01-26 17:11:14,517 - INFO - Displaying weather data for city: San Francisco
+2025-01-26 17:11:14,517 - INFO - Displaying weather data for city: San Francisco
+2025-01-26 17:11:20,783 - INFO - City selected: New York
+2025-01-26 17:11:20,786 - INFO - Received weather request for city: New York
+2025-01-26 17:11:21,190 - INFO - Fetched weather data for New York from both APIs
+2025-01-26 17:11:21,190 - INFO - Preprocessed weather data for New York
+2025-01-26 17:11:21,194 - INFO - Weather data fetched successfully for New York: {"city":"New York","data":{"temperature":{"api_1":3.95,"api_2":5.6},"feels_like":{"api_1":0.59,"api_2":2.1},"humidity":{"api_1":45,"api_2":31},"pressure":{"api_1":1021,"api_2":1020},"wind_speed":{"api_1":3.97,"api_2":17.6},"description":{"api_1":"overcast clouds","api_2":"Clear"},"summary":"API 1: overcast clouds (3.95°C, Humidity: 45%)\nAPI 2: Clear (5.6°C, Humidity: 31%)"}}
+2025-01-26 17:11:21,206 - INFO - Displaying weather data for city: New York
+2025-01-26 17:11:21,207 - INFO - Displaying weather data for city: New York
+2025-01-26 17:11:21,209 - INFO - Displaying weather data for city: New York
+2025-01-26 17:11:21,210 - INFO - Displaying weather data for city: New York
+2025-01-26 17:14:50,333 - INFO - Displaying weather data for city: New York
+2025-01-26 17:14:50,333 - INFO - Weather data: {"temperature":{"api_1":3.95,"api_2":5.6},"feels_like":{"api_1":0.59,"api_2":2.1},"humidity":{"api_1":45,"api_2":31},"pressure":{"api_1":1021,"api_2":1020},"wind_speed":{"api_1":3.97,"api_2":17.6},"description":{"api_1":"overcast clouds","api_2":"Clear"},"summary":"API 1: overcast clouds (3.95°C, Humidity: 45%)\nAPI 2: Clear (5.6°C, Humidity: 31%)"}
+2025-01-26 17:14:50,334 - INFO - Displaying weather data for city: New York
+2025-01-26 17:14:50,334 - INFO - Weather data: {"temperature":{"api_1":3.95,"api_2":5.6},"feels_like":{"api_1":0.59,"api_2":2.1},"humidity":{"api_1":45,"api_2":31},"pressure":{"api_1":1021,"api_2":1020},"wind_speed":{"api_1":3.97,"api_2":17.6},"description":{"api_1":"overcast clouds","api_2":"Clear"},"summary":"API 1: overcast clouds (3.95°C, Humidity: 45%)\nAPI 2: Clear (5.6°C, Humidity: 31%)"}
+2025-01-26 17:15:13,907 - INFO - City selected: San Francisco
+2025-01-26 17:15:13,915 - INFO - Received weather request for city: San Francisco
+2025-01-26 17:15:14,294 - INFO - Fetched weather data for San Francisco from both APIs
+2025-01-26 17:15:14,294 - INFO - Preprocessed weather data for San Francisco
+2025-01-26 17:15:14,300 - INFO - Weather data fetched successfully for San Francisco: {"city":"San Francisco","data":{"temperature":{"api_1":13.32,"api_2":12.2},"feels_like":{"api_1":11.57,"api_2":10.1},"humidity":{"api_1":33,"api_2":53},"pressure":{"api_1":1018,"api_2":1019},"wind_speed":{"api_1":6.17,"api_2":20.2},"description":{"api_1":"broken clouds","api_2":"Partly cloudy"},"summary":"API 1: broken clouds (13.32°C, Humidity: 33%)\nAPI 2: Partly cloudy (12.2°C, Humidity: 53%)"}}
+2025-01-26 17:15:14,312 - INFO - Displaying weather data for city: San Francisco
+2025-01-26 17:15:14,313 - INFO - Weather data: {"temperature":{"api_1":13.32,"api_2":12.2},"feels_like":{"api_1":11.57,"api_2":10.1},"humidity":{"api_1":33,"api_2":53},"pressure":{"api_1":1018,"api_2":1019},"wind_speed":{"api_1":6.17,"api_2":20.2},"description":{"api_1":"broken clouds","api_2":"Partly cloudy"},"summary":"API 1: broken clouds (13.32°C, Humidity: 33%)\nAPI 2: Partly cloudy (12.2°C, Humidity: 53%)"}
+2025-01-26 17:15:14,313 - INFO - Displaying weather data for city: San Francisco
+2025-01-26 17:15:14,313 - INFO - Weather data: {"temperature":{"api_1":13.32,"api_2":12.2},"feels_like":{"api_1":11.57,"api_2":10.1},"humidity":{"api_1":33,"api_2":53},"pressure":{"api_1":1018,"api_2":1019},"wind_speed":{"api_1":6.17,"api_2":20.2},"description":{"api_1":"broken clouds","api_2":"Partly cloudy"},"summary":"API 1: broken clouds (13.32°C, Humidity: 33%)\nAPI 2: Partly cloudy (12.2°C, Humidity: 53%)"}
+2025-01-26 17:16:14,225 - INFO - Displaying weather data for city in WeatherResult.js: San Francisco
+2025-01-26 17:16:14,225 - INFO - Weather data displayed in WeatherResult.js: {"temperature":{"api_1":13.32,"api_2":12.2},"feels_like":{"api_1":11.57,"api_2":10.1},"humidity":{"api_1":33,"api_2":53},"pressure":{"api_1":1018,"api_2":1019},"wind_speed":{"api_1":6.17,"api_2":20.2},"description":{"api_1":"broken clouds","api_2":"Partly cloudy"},"summary":"API 1: broken clouds (13.32°C, Humidity: 33%)\nAPI 2: Partly cloudy (12.2°C, Humidity: 53%)"}
+2025-01-26 17:16:14,225 - INFO - Weather data displayed in WeatherResult.js: {"temperature":{"api_1":13.32,"api_2":12.2},"feels_like":{"api_1":11.57,"api_2":10.1},"humidity":{"api_1":33,"api_2":53},"pressure":{"api_1":1018,"api_2":1019},"wind_speed":{"api_1":6.17,"api_2":20.2},"description":{"api_1":"broken clouds","api_2":"Partly cloudy"},"summary":"API 1: broken clouds (13.32°C, Humidity: 33%)\nAPI 2: Partly cloudy (12.2°C, Humidity: 53%)"}
+2025-01-26 17:16:14,225 - INFO - Displaying weather data for city in WeatherResult.js: San Francisco
+2025-01-26 17:16:29,998 - INFO - Displaying weather data for city in WeatherResult.js: San Francisco
+2025-01-26 17:16:29,998 - INFO - Weather data displayed in WeatherResult.js: {"temperature":{"api_1":13.32,"api_2":12.2},"feels_like":{"api_1":11.57,"api_2":10.1},"humidity":{"api_1":33,"api_2":53},"pressure":{"api_1":1018,"api_2":1019},"wind_speed":{"api_1":6.17,"api_2":20.2},"description":{"api_1":"broken clouds","api_2":"Partly cloudy"},"summary":"API 1: broken clouds (13.32°C, Humidity: 33%)\nAPI 2: Partly cloudy (12.2°C, Humidity: 53%)"}
+2025-01-26 17:16:29,999 - INFO - Displaying weather data for city in WeatherResult.js: San Francisco
+2025-01-26 17:16:29,999 - INFO - Weather data displayed in WeatherResult.js: {"temperature":{"api_1":13.32,"api_2":12.2},"feels_like":{"api_1":11.57,"api_2":10.1},"humidity":{"api_1":33,"api_2":53},"pressure":{"api_1":1018,"api_2":1019},"wind_speed":{"api_1":6.17,"api_2":20.2},"description":{"api_1":"broken clouds","api_2":"Partly cloudy"},"summary":"API 1: broken clouds (13.32°C, Humidity: 33%)\nAPI 2: Partly cloudy (12.2°C, Humidity: 53%)"}
+2025-01-26 17:17:25,602 - INFO - Displaying weather data for city in WeatherResult.js: San Francisco
+2025-01-26 17:17:25,603 - INFO - Displaying weather data for city in WeatherResult.js: San Francisco
+2025-01-26 17:17:25,604 - INFO - Weather data displayed in WeatherResult.js: {"temperature":{"api_1":13.32,"api_2":12.2},"feels_like":{"api_1":11.57,"api_2":10.1},"humidity":{"api_1":33,"api_2":53},"pressure":{"api_1":1018,"api_2":1019},"wind_speed":{"api_1":6.17,"api_2":20.2},"description":{"api_1":"broken clouds","api_2":"Partly cloudy"},"summary":"API 1: broken clouds (13.32°C, Humidity: 33%)\nAPI 2: Partly cloudy (12.2°C, Humidity: 53%)"}
+2025-01-26 17:17:25,604 - INFO - Weather data displayed in WeatherResult.js: {"temperature":{"api_1":13.32,"api_2":12.2},"feels_like":{"api_1":11.57,"api_2":10.1},"humidity":{"api_1":33,"api_2":53},"pressure":{"api_1":1018,"api_2":1019},"wind_speed":{"api_1":6.17,"api_2":20.2},"description":{"api_1":"broken clouds","api_2":"Partly cloudy"},"summary":"API 1: broken clouds (13.32°C, Humidity: 33%)\nAPI 2: Partly cloudy (12.2°C, Humidity: 53%)"}
+2025-01-26 17:17:32,447 - INFO - Displaying weather data for city in WeatherResult.js: San Francisco
+2025-01-26 17:17:32,447 - INFO - Displaying weather data for city in WeatherResult.js: San Francisco
+2025-01-26 17:17:32,447 - INFO - Weather data displayed in WeatherResult.js: {"temperature":{"api_1":13.32,"api_2":12.2},"feels_like":{"api_1":11.57,"api_2":10.1},"humidity":{"api_1":33,"api_2":53},"pressure":{"api_1":1018,"api_2":1019},"wind_speed":{"api_1":6.17,"api_2":20.2},"description":{"api_1":"broken clouds","api_2":"Partly cloudy"},"summary":"API 1: broken clouds (13.32°C, Humidity: 33%)\nAPI 2: Partly cloudy (12.2°C, Humidity: 53%)"}
+2025-01-26 17:17:32,448 - INFO - Weather data displayed in WeatherResult.js: {"temperature":{"api_1":13.32,"api_2":12.2},"feels_like":{"api_1":11.57,"api_2":10.1},"humidity":{"api_1":33,"api_2":53},"pressure":{"api_1":1018,"api_2":1019},"wind_speed":{"api_1":6.17,"api_2":20.2},"description":{"api_1":"broken clouds","api_2":"Partly cloudy"},"summary":"API 1: broken clouds (13.32°C, Humidity: 33%)\nAPI 2: Partly cloudy (12.2°C, Humidity: 53%)"}
+2025-01-26 17:17:49,004 - INFO - City selected: Boston
+2025-01-26 17:17:49,007 - INFO - Received weather request for city: Boston
+2025-01-26 17:17:49,470 - INFO - Fetched weather data for Boston from both APIs
+2025-01-26 17:17:49,470 - INFO - Preprocessed weather data for Boston
+2025-01-26 17:17:49,475 - INFO - Weather data fetched successfully from backend in CitySelection.js for Boston: {"city":"Boston","data":{"temperature":{"api_1":2.64,"api_2":3.3},"feels_like":{"api_1":-3.15,"api_2":-1.2},"humidity":{"api_1":47,"api_2":40},"pressure":{"api_1":1017,"api_2":1017},"wind_speed":{"api_1":8.75,"api_2":21.2},"description":{"api_1":"scattered clouds","api_2":"Partly cloudy"},"summary":"API 1: scattered clouds (2.64°C, Humidity: 47%)\nAPI 2: Partly cloudy (3.3°C, Humidity: 40%)"}}
+2025-01-26 17:17:49,489 - INFO - Displaying weather data for city in WeatherResult.js: Boston
+2025-01-26 17:17:49,489 - INFO - Weather data displayed in WeatherResult.js: {"temperature":{"api_1":2.64,"api_2":3.3},"feels_like":{"api_1":-3.15,"api_2":-1.2},"humidity":{"api_1":47,"api_2":40},"pressure":{"api_1":1017,"api_2":1017},"wind_speed":{"api_1":8.75,"api_2":21.2},"description":{"api_1":"scattered clouds","api_2":"Partly cloudy"},"summary":"API 1: scattered clouds (2.64°C, Humidity: 47%)\nAPI 2: Partly cloudy (3.3°C, Humidity: 40%)"}
+2025-01-26 17:17:49,490 - INFO - Displaying weather data for city in WeatherResult.js: Boston
+2025-01-26 17:17:49,490 - INFO - Weather data displayed in WeatherResult.js: {"temperature":{"api_1":2.64,"api_2":3.3},"feels_like":{"api_1":-3.15,"api_2":-1.2},"humidity":{"api_1":47,"api_2":40},"pressure":{"api_1":1017,"api_2":1017},"wind_speed":{"api_1":8.75,"api_2":21.2},"description":{"api_1":"scattered clouds","api_2":"Partly cloudy"},"summary":"API 1: scattered clouds (2.64°C, Humidity: 47%)\nAPI 2: Partly cloudy (3.3°C, Humidity: 40%)"}
