@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,27 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.city-selection, .weather-query, .weather-result {
+  text-align: center;
+  margin-top: 50px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+textarea {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
 }

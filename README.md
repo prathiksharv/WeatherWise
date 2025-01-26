@@ -88,12 +88,4 @@ The frontend should now be running at `http://localhost:3000`.
 2. Enter a city name in the input field and click "Search" to view weather details fetched from the API.
 
 ---
-
-### Future Enhancements
-- Add error handling for invalid city names or API issues.
-- Implement additional features like historical weather data.
-- Add support for user authentication and personalization.
-
----
-
 Enjoy using WeatherWise! 🌤️
