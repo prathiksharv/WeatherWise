@@ -37,6 +37,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import CitySelection from "./components/CitySelection";
 import WeatherResult from "./components/WeatherResult";
 import WeatherQuery from "./components/WeatherQuery";
+import "bootstrap/dist/css/bootstrap.min.css";
+
 
 function App() {
   return (
