@@ -52,6 +52,7 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
+from transformers import T5ForConditionalGeneration, T5Tokenizer
 import logging
 
 # Import API service functions
@@ -126,3 +127,49 @@ def fetch_weather(request: CityRequest):
         logging.error(f"Error fetching weather data for {city}: {e}")
         raise HTTPException(status_code=500, detail="Failed to fetch weather data")
 
+# Load FLAN-T5 model and tokenizer
+model_name = "google/flan-t5-base"
+tokenizer = T5Tokenizer.from_pretrained(model_name)
+model = T5ForConditionalGeneration.from_pretrained(model_name)
+
+class QueryRequest(BaseModel):
+    city: str
+    weather_data: dict
+    query: str
+
+@app.post("/query/")
+def process_query(request: QueryRequest):
+    """
+    Use FLAN-T5 to process weather data and user queries.
+    """
+    try:
+        city = request.city
+        weather_data = request.weather_data
+        query = request.query
+        logging.info(f"City, Weather Data and Query recieved to backend: {city}, {weather_data}, {query}")
+
+        # Prepare input prompt for FLAN-T5
+        prompt = f"""
+        Weather data for {city}:
+        {weather_data}
+
+        User query: {query}
+        
+        Provide a concise and informative response based on the above data:
+        """
+
+        # Tokenize the input prompt
+        inputs = tokenizer(prompt, return_tensors="pt", max_length=512, truncation=True)
+        outputs = model.generate(inputs.input_ids, max_length=150, num_beams=4, early_stopping=True)
+
+        # Decode the output
+        llm_response = tokenizer.decode(outputs[0], skip_special_tokens=True)
+
+        # Log the successful response
+        logging.info(f"LLM responded for query '{query}': {llm_response}")
+
+        return {"response": llm_response}
+    
+    except Exception as e:
+        logging.error(f"Error processing query: {str(e)}")
+        raise HTTPException(status_code=500, detail="Error processing query.")

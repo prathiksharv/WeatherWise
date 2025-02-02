@@ -36,6 +36,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import CitySelection from "./components/CitySelection";
 import WeatherResult from "./components/WeatherResult";
+import WeatherQuery from "./components/WeatherQuery";
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
       <Routes>
         <Route path="/" element={<CitySelection />} />
         <Route path="/result" element={<WeatherResult />} />
+        <Route path="/query" element={<WeatherQuery />} />
       </Routes>
     </Router>
   );
