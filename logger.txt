@@ -213,3 +213,43 @@
 2025-02-02 16:43:15,367 - INFO - Displaying weather data for city: Miami
 2025-02-02 16:43:27,134 - INFO - City, Weather Data and Query recieved to backend: Miami, {'city': 'Miami', 'data': {'temperature': {'api_1': 26.26, 'api_2': 26.1}, 'feels_like': {'api_1': 26.26, 'api_2': 29.1}, 'humidity': {'api_1': 78, 'api_2': 69}, 'pressure': {'api_1': 1020, 'api_2': 1020}, 'wind_speed': {'api_1': 6.17, 'api_2': 15.1}, 'description': {'api_1': 'broken clouds', 'api_2': 'Partly cloudy'}, 'summary': 'API 1: broken clouds (26.26°C, Humidity: 78%)\nAPI 2: Partly cloudy (26.1°C, Humidity: 69%)'}}, is it humid today?
 2025-02-02 16:43:30,861 - INFO - LLM responded for query 'is it humid today?': Yes, it is humid.
+2025-02-02 16:46:04,621 - INFO - City selected: New York
+2025-02-02 16:46:04,625 - INFO - Received weather request for city: New York
+2025-02-02 16:46:05,078 - INFO - Fetched weather data for New York from both APIs
+2025-02-02 16:46:05,078 - INFO - Preprocessed weather data for New York
+2025-02-02 16:46:05,082 - INFO - Weather data fetched successfully for New York: {"city":"New York","data":{"temperature":{"api_1":-0.88,"api_2":-2.2},"feels_like":{"api_1":-5.79,"api_2":-7.4},"humidity":{"api_1":71,"api_2":69},"pressure":{"api_1":1028,"api_2":1029},"wind_speed":{"api_1":4.63,"api_2":16.6},"description":{"api_1":"overcast clouds","api_2":"Overcast"},"summary":"API 1: overcast clouds (-0.88°C, Humidity: 71%)\nAPI 2: Overcast (-2.2°C, Humidity: 69%)"}}
+2025-02-02 16:46:05,091 - INFO - Displaying weather data for city: New York
+2025-02-02 16:46:05,091 - INFO - Displaying weather data for city: New York
+2025-02-02 16:50:04,785 - INFO - Displaying weather data for city: New York
+2025-02-02 16:50:04,786 - INFO - Displaying weather data for city: New York
+2025-02-02 16:59:10,788 - INFO - Displaying weather data for city: New York
+2025-02-02 16:59:10,788 - INFO - Displaying weather data for city: New York
+2025-02-02 16:59:17,026 - INFO - City selected: New York
+2025-02-02 16:59:17,028 - INFO - Received weather request for city: New York
+2025-02-02 16:59:17,405 - INFO - Fetched weather data for New York from both APIs
+2025-02-02 16:59:17,405 - INFO - Preprocessed weather data for New York
+2025-02-02 16:59:17,410 - INFO - Weather data fetched successfully for New York: {"city":"New York","data":{"temperature":{"api_1":-1.15,"api_2":-2.2},"feels_like":{"api_1":-6.13,"api_2":-7.4},"humidity":{"api_1":72,"api_2":69},"pressure":{"api_1":1028,"api_2":1029},"wind_speed":{"api_1":4.63,"api_2":16.6},"description":{"api_1":"overcast clouds","api_2":"Overcast"},"summary":"API 1: overcast clouds (-1.15°C, Humidity: 72%)\nAPI 2: Overcast (-2.2°C, Humidity: 69%)"}}
+2025-02-02 16:59:17,425 - INFO - Displaying weather data for city: New York
+2025-02-02 16:59:17,425 - INFO - Displaying weather data for city: New York
+2025-02-02 17:01:15,809 - INFO - Displaying weather data for city: New York
+2025-02-02 17:01:15,810 - INFO - Displaying weather data for city: New York
+2025-02-02 17:04:30,270 - INFO - City selected: San Francisco
+2025-02-02 17:04:30,274 - INFO - Received weather request for city: San Francisco
+2025-02-02 17:04:30,684 - INFO - Fetched weather data for San Francisco from both APIs
+2025-02-02 17:04:30,684 - INFO - Preprocessed weather data for San Francisco
+2025-02-02 17:04:30,687 - INFO - Weather data fetched successfully for San Francisco: {"city":"San Francisco","data":{"temperature":{"api_1":14.24,"api_2":15.6},"feels_like":{"api_1":14.1,"api_2":15.6},"humidity":{"api_1":91,"api_2":100},"pressure":{"api_1":1016,"api_2":1017},"wind_speed":{"api_1":6.26,"api_2":30.6},"description":{"api_1":"overcast clouds","api_2":"Light rain"},"summary":"API 1: overcast clouds (14.24°C, Humidity: 91%)\nAPI 2: Light rain (15.6°C, Humidity: 100%)"}}
+2025-02-02 17:04:30,707 - INFO - Displaying weather data for city: San Francisco
+2025-02-02 17:04:30,709 - INFO - Displaying weather data for city: San Francisco
+2025-02-02 17:04:30,713 - INFO - Displaying weather data for city: San Francisco
+2025-02-02 17:04:30,714 - INFO - Displaying weather data for city: San Francisco
+2025-02-02 17:04:51,259 - INFO - City selected: New York
+2025-02-02 17:04:51,265 - INFO - Received weather request for city: New York
+2025-02-02 17:04:51,601 - INFO - Fetched weather data for New York from both APIs
+2025-02-02 17:04:51,601 - INFO - Preprocessed weather data for New York
+2025-02-02 17:04:51,605 - INFO - Weather data fetched successfully for New York: {"city":"New York","data":{"temperature":{"api_1":-1.12,"api_2":-2.2},"feels_like":{"api_1":-6.09,"api_2":-7.2},"humidity":{"api_1":72,"api_2":69},"pressure":{"api_1":1028,"api_2":1029},"wind_speed":{"api_1":4.63,"api_2":15.5},"description":{"api_1":"overcast clouds","api_2":"Overcast"},"summary":"API 1: overcast clouds (-1.12°C, Humidity: 72%)\nAPI 2: Overcast (-2.2°C, Humidity: 69%)"}}
+2025-02-02 17:04:51,615 - INFO - Displaying weather data for city: New York
+2025-02-02 17:04:51,615 - INFO - Displaying weather data for city: New York
+2025-02-02 17:04:51,623 - INFO - Displaying weather data for city: New York
+2025-02-02 17:04:51,623 - INFO - Displaying weather data for city: New York
+2025-02-02 17:05:18,808 - INFO - Displaying weather data for city: New York
+2025-02-02 17:05:18,808 - INFO - Displaying weather data for city: New York
