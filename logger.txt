@@ -406,3 +406,14 @@
 2025-02-02 19:02:00,967 - INFO - Weather data fetched successfully for Seattle: {"city":"Seattle","data":{"temperature":{"api_1":2.88,"api_2":3.3},"feels_like":{"api_1":-1.91,"api_2":-0.8},"humidity":{"api_1":86,"api_2":82},"pressure":{"api_1":1010,"api_2":1010},"wind_speed":{"api_1":6.26,"api_2":18},"description":{"api_1":"broken clouds","api_2":"Partly cloudy"},"summary":"API 1: broken clouds (2.88°C, Humidity: 86%)\nAPI 2: Partly cloudy (3.3°C, Humidity: 82%)"}}
 2025-02-02 19:02:00,988 - INFO - Displaying weather data for city: Seattle
 2025-02-02 19:02:00,989 - INFO - Displaying weather data for city: Seattle
+2025-02-02 19:05:01,922 - INFO - Displaying weather data for city: Seattle
+2025-02-02 19:05:01,922 - INFO - Displaying weather data for city: Seattle
+2025-02-02 19:05:27,913 - INFO - Displaying weather data for city: Seattle
+2025-02-02 19:05:27,913 - INFO - Displaying weather data for city: Seattle
+2025-02-02 19:05:36,425 - INFO - City selected: New York
+2025-02-02 19:05:36,428 - INFO - Received weather request for city: New York
+2025-02-02 19:05:36,844 - INFO - Fetched weather data for New York from both APIs
+2025-02-02 19:05:36,845 - INFO - Preprocessed weather data for New York
+2025-02-02 19:05:36,850 - INFO - Weather data fetched successfully for New York: {"city":"New York","data":{"temperature":{"api_1":-1.26,"api_2":-1.7},"feels_like":{"api_1":-5.92,"api_2":-6.7},"humidity":{"api_1":77,"api_2":66},"pressure":{"api_1":1026,"api_2":1028},"wind_speed":{"api_1":4.12,"api_2":15.8},"description":{"api_1":"overcast clouds","api_2":"Overcast"},"summary":"API 1: overcast clouds (-1.26°C, Humidity: 77%)\nAPI 2: Overcast (-1.7°C, Humidity: 66%)"}}
+2025-02-02 19:05:36,864 - INFO - Displaying weather data for city: New York
+2025-02-02 19:05:36,865 - INFO - Displaying weather data for city: New York

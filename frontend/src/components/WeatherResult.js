@@ -17,6 +17,18 @@ const WeatherResult = () => {
 
   logToBackend("info", `Displaying weather data for city: ${city}`);
 
+  // City to image mapping
+  const cityBackgrounds = {
+    "New York": "/images/new_york.jpg",
+    "San Francisco": "/images/san_francisco.jpg",
+    "Boston": "/images/boston.jpg",
+    "Seattle": "/images/seattle.jpg",
+    "Chicago": "/images/chicago.jpg",
+  };
+
+  // Get the background image for the selected city or fallback to a default
+  const backgroundImage = cityBackgrounds[city] || "/images/default.jpg";
+
   // Calculate averages
   const averageTemperature =
     (weatherData.data.temperature.api_1 + weatherData.data.temperature.api_2) / 2;
@@ -48,7 +60,7 @@ const WeatherResult = () => {
     <div
       className="weather-result d-flex justify-content-center align-items-center vh-100"
       style={{
-        backgroundImage: "url('/images/worldmap.jpg')", // Replace with your image URL
+        backgroundImage: `url('${backgroundImage}')`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
