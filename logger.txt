@@ -444,3 +444,19 @@
 2025-02-02 20:14:26,846 - INFO - LLM responded for query 'is it rainy?': Yes, it is raining.
 2025-02-02 20:14:39,579 - INFO - City, Weather Data and Query recieved to backend: San Francisco, {'temperature': 13.530000000000001, 'feels_like': 12.305, 'humidity': 96, 'wind_speed': 15.98, 'pressure': 1016, 'description': 'overcast clouds; Fog'}, do you think i should wear warm clothes?
 2025-02-02 20:14:42,146 - INFO - LLM responded for query 'do you think i should wear warm clothes?': The temperature in San Francisco is 13.530000000000001, the humidity is 96, the wind speed is 15.98, and the pressure is 1016.
+2025-02-02 20:16:12,094 - INFO - City selected: Miami
+2025-02-02 20:16:12,098 - INFO - Received weather request for city: Miami
+2025-02-02 20:16:12,640 - INFO - Fetched weather data for Miami from both APIs
+2025-02-02 20:16:12,640 - INFO - Preprocessed weather data for Miami
+2025-02-02 20:16:12,645 - INFO - Weather data fetched successfully for Miami: {"city":"Miami","data":{"temperature":{"api_1":23.42,"api_2":23.9},"feels_like":{"api_1":24.12,"api_2":26.6},"humidity":{"api_1":88,"api_2":84},"pressure":{"api_1":1021,"api_2":1021},"wind_speed":{"api_1":5.66,"api_2":14.8},"description":{"api_1":"clear sky","api_2":"Clear"},"summary":"API 1: clear sky (23.42°C, Humidity: 88%)\nAPI 2: Clear (23.9°C, Humidity: 84%)"}}
+2025-02-02 20:16:12,656 - INFO - Displaying weather data for city: Miami
+2025-02-02 20:16:12,657 - INFO - Displaying weather data for city: Miami
+2025-02-02 20:17:07,459 - INFO - Displaying weather data for city: Miami
+2025-02-02 20:17:07,459 - INFO - Displaying weather data for city: Miami
+2025-02-02 20:17:27,710 - INFO - City selected: New York
+2025-02-02 20:17:27,713 - INFO - Received weather request for city: New York
+2025-02-02 20:17:28,138 - INFO - Fetched weather data for New York from both APIs
+2025-02-02 20:17:28,139 - INFO - Preprocessed weather data for New York
+2025-02-02 20:17:28,143 - INFO - Weather data fetched successfully for New York: {"city":"New York","data":{"temperature":{"api_1":-1.01,"api_2":-1.7},"feels_like":{"api_1":-4.8,"api_2":-6.6},"humidity":{"api_1":85,"api_2":82},"pressure":{"api_1":1025,"api_2":1026},"wind_speed":{"api_1":3.09,"api_2":15.5},"description":{"api_1":"light snow","api_2":"Light snow"},"summary":"API 1: light snow (-1.01°C, Humidity: 85%)\nAPI 2: Light snow (-1.7°C, Humidity: 82%)"}}
+2025-02-02 20:17:28,153 - INFO - Displaying weather data for city: New York
+2025-02-02 20:17:28,153 - INFO - Displaying weather data for city: New York

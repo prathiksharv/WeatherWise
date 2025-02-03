@@ -24,6 +24,7 @@ const WeatherResult = () => {
     "Boston": "/images/boston.jpg",
     "Seattle": "/images/seattle.jpg",
     "Chicago": "/images/chicago.jpg",
+    "Miami": "/images/miami.jpg"
   };
 
   // Get the background image for the selected city or fallback to a default
