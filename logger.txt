@@ -417,3 +417,30 @@
 2025-02-02 19:05:36,850 - INFO - Weather data fetched successfully for New York: {"city":"New York","data":{"temperature":{"api_1":-1.26,"api_2":-1.7},"feels_like":{"api_1":-5.92,"api_2":-6.7},"humidity":{"api_1":77,"api_2":66},"pressure":{"api_1":1026,"api_2":1028},"wind_speed":{"api_1":4.12,"api_2":15.8},"description":{"api_1":"overcast clouds","api_2":"Overcast"},"summary":"API 1: overcast clouds (-1.26°C, Humidity: 77%)\nAPI 2: Overcast (-1.7°C, Humidity: 66%)"}}
 2025-02-02 19:05:36,864 - INFO - Displaying weather data for city: New York
 2025-02-02 19:05:36,865 - INFO - Displaying weather data for city: New York
+2025-02-02 19:53:33,266 - INFO - City selected: San Francisco
+2025-02-02 19:53:33,270 - INFO - Received weather request for city: San Francisco
+2025-02-02 19:53:33,666 - INFO - Fetched weather data for San Francisco from both APIs
+2025-02-02 19:53:33,667 - INFO - Preprocessed weather data for San Francisco
+2025-02-02 19:53:33,670 - INFO - Weather data fetched successfully for San Francisco: {"city":"San Francisco","data":{"temperature":{"api_1":13.96,"api_2":13.1},"feels_like":{"api_1":13.81,"api_2":10.8},"humidity":{"api_1":92,"api_2":100},"pressure":{"api_1":1015,"api_2":1017},"wind_speed":{"api_1":5.36,"api_2":26.6},"description":{"api_1":"overcast clouds","api_2":"Fog"},"summary":"API 1: overcast clouds (13.96°C, Humidity: 92%)\nAPI 2: Fog (13.1°C, Humidity: 100%)"}}
+2025-02-02 19:53:33,693 - INFO - Displaying weather data for city: San Francisco
+2025-02-02 19:53:33,693 - INFO - Displaying weather data for city: San Francisco
+2025-02-02 20:00:27,149 - INFO - City, Weather Data and Query recieved to backend: San Francisco, {'temperature': 13.530000000000001, 'feels_like': 12.305, 'humidity': 96, 'wind_speed': 15.98, 'pressure': 1016, 'description': 'overcast clouds; Fog'}, Will is snow today?
+2025-02-02 20:00:32,278 - INFO - LLM responded for query 'Will is snow today?': The temperature in San Francisco today is 13.530000000000001, the humidity is 96, and the wind speed is 15.98 km/h.
+2025-02-02 20:00:59,467 - INFO - City, Weather Data and Query recieved to backend: San Francisco, {'temperature': 13.530000000000001, 'feels_like': 12.305, 'humidity': 96, 'wind_speed': 15.98, 'pressure': 1016, 'description': 'overcast clouds; Fog'}, is it sunny today?
+2025-02-02 20:01:00,635 - INFO - LLM responded for query 'is it sunny today?': No, it is cloudy.
+2025-02-02 20:04:51,959 - INFO - City, Weather Data and Query recieved to backend: San Francisco, {'temperature': 13.530000000000001, 'feels_like': 12.305, 'humidity': 96, 'wind_speed': 15.98, 'pressure': 1016, 'description': 'overcast clouds; Fog'}, Will it rain today?
+2025-02-02 20:04:55,362 - INFO - LLM responded for query 'Will it rain today?': The temperature in San Francisco is 13.530000000000001, the humidity is 96, and the wind speed is 15.98 km/h.
+2025-02-02 20:08:05,829 - INFO - City, Weather Data and Query recieved to backend: San Francisco, {'temperature': 13.530000000000001, 'feels_like': 12.305, 'humidity': 96, 'wind_speed': 15.98, 'pressure': 1016, 'description': 'overcast clouds; Fog'}, will it rain today?
+2025-02-02 20:08:08,782 - INFO - LLM responded for query 'will it rain today?': There is a temperature of 13.530000000000001 and a humidity of 96. The wind speed is 15.98 and the pressure is 1016.
+2025-02-02 20:10:50,237 - INFO - City, Weather Data and Query recieved to backend: San Francisco, {'temperature': 13.530000000000001, 'feels_like': 12.305, 'humidity': 96, 'wind_speed': 15.98, 'pressure': 1016, 'description': 'overcast clouds; Fog'}, Will it snow today
+
+2025-02-02 20:10:52,644 - INFO - LLM responded for query 'Will it snow today
+': The temperature in San Francisco is 13.530000000000001 and the humidity is 96. The wind speed is 15.98 and the pressure is 1016.
+2025-02-02 20:11:10,332 - INFO - City, Weather Data and Query recieved to backend: San Francisco, {'temperature': 13.530000000000001, 'feels_like': 12.305, 'humidity': 96, 'wind_speed': 15.98, 'pressure': 1016, 'description': 'overcast clouds; Fog'}, Is it gloomy outside? should i carry an umbrella?
+2025-02-02 20:11:12,619 - INFO - LLM responded for query 'Is it gloomy outside? should i carry an umbrella?': The temperature in San Francisco is 13.530000000000001, the humidity is 96, the wind speed is 15.98, and the pressure is 1016.
+2025-02-02 20:14:03,927 - INFO - City, Weather Data and Query recieved to backend: San Francisco, {'temperature': 13.530000000000001, 'feels_like': 12.305, 'humidity': 96, 'wind_speed': 15.98, 'pressure': 1016, 'description': 'overcast clouds; Fog'}, is it sunny outside?
+2025-02-02 20:14:05,168 - INFO - LLM responded for query 'is it sunny outside?': no
+2025-02-02 20:14:26,208 - INFO - City, Weather Data and Query recieved to backend: San Francisco, {'temperature': 13.530000000000001, 'feels_like': 12.305, 'humidity': 96, 'wind_speed': 15.98, 'pressure': 1016, 'description': 'overcast clouds; Fog'}, is it rainy?
+2025-02-02 20:14:26,846 - INFO - LLM responded for query 'is it rainy?': Yes, it is raining.
+2025-02-02 20:14:39,579 - INFO - City, Weather Data and Query recieved to backend: San Francisco, {'temperature': 13.530000000000001, 'feels_like': 12.305, 'humidity': 96, 'wind_speed': 15.98, 'pressure': 1016, 'description': 'overcast clouds; Fog'}, do you think i should wear warm clothes?
+2025-02-02 20:14:42,146 - INFO - LLM responded for query 'do you think i should wear warm clothes?': The temperature in San Francisco is 13.530000000000001, the humidity is 96, the wind speed is 15.98, and the pressure is 1016.
