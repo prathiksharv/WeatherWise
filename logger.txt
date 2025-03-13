@@ -589,3 +589,621 @@
 2025-03-13 03:48:06,431 - INFO - Received weather request for city: Boston
 2025-03-13 03:48:07,106 - INFO - Fetched weather data for Boston from both APIs
 2025-03-13 03:48:07,106 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:10:32,680 - INFO - Received weather request for city: Boston
+2025-03-13 04:10:32,681 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:10:32,681 - INFO - Received weather request for city: Boston
+2025-03-13 04:10:32,684 - INFO - Received weather request for city: Boston
+2025-03-13 04:10:32,685 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:10:33,118 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:10:33,118 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:10:33,125 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:10:33,125 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:10:33,131 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:10:33,131 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:10:33,678 - INFO - Received weather request for city: Boston
+2025-03-13 04:10:33,679 - INFO - Received weather request for city: Boston
+2025-03-13 04:10:33,679 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:10:33,681 - INFO - Received weather request for city: Boston
+2025-03-13 04:10:33,681 - INFO - Received weather request for city: Boston
+2025-03-13 04:10:33,915 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:10:33,915 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:10:33,915 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:10:33,915 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:10:33,918 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:10:33,918 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:10:33,929 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:10:33,929 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:10:34,303 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:10:34,503 - INFO - Received weather request for city: Boston
+2025-03-13 04:10:34,609 - INFO - Received weather request for city: Boston
+2025-03-13 04:10:34,681 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:10:34,683 - INFO - Received weather request for city: Boston
+2025-03-13 04:10:34,683 - INFO - Received weather request for city: Boston
+2025-03-13 04:10:34,683 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:10:34,685 - INFO - Received weather request for city: Boston
+2025-03-13 04:10:34,739 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:10:34,739 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:10:34,850 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:10:34,850 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:10:35,063 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:10:35,064 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:10:35,064 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:10:35,064 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:10:35,064 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:10:35,064 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:10:35,178 - INFO - Received weather request for city: Boston
+2025-03-13 04:10:35,228 - INFO - Received weather request for city: Boston
+2025-03-13 04:10:35,298 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:10:35,415 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:10:35,415 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:10:35,475 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:10:35,475 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:10:35,661 - INFO - Received weather request for city: Boston
+2025-03-13 04:10:35,684 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:10:35,685 - INFO - Received weather request for city: Boston
+2025-03-13 04:10:35,685 - INFO - Received weather request for city: Boston
+2025-03-13 04:10:35,686 - INFO - Received weather request for city: Boston
+2025-03-13 04:10:35,687 - INFO - Received weather request for city: Boston
+2025-03-13 04:10:35,904 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:10:35,904 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:10:35,925 - INFO - Received weather request for city: Boston
+2025-03-13 04:10:35,938 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:10:35,938 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:10:35,942 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:10:35,942 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:10:35,942 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:10:35,942 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:10:35,944 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:10:35,944 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:10:36,153 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:10:36,153 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:10:36,368 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:10:36,589 - INFO - Received weather request for city: Boston
+2025-03-13 04:10:36,636 - INFO - Received weather request for city: Boston
+2025-03-13 04:10:36,636 - INFO - Received weather request for city: Boston
+2025-03-13 04:10:36,690 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:10:36,692 - INFO - Received weather request for city: Boston
+2025-03-13 04:10:36,692 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:10:36,695 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:10:36,698 - INFO - Received weather request for city: Boston
+2025-03-13 04:10:36,832 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:10:36,832 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:10:36,888 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:10:36,889 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:10:36,902 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:10:36,905 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:10:36,906 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:10:36,949 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:10:36,949 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:10:36,951 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:10:36,952 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:10:37,009 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:10:37,045 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:10:37,170 - INFO - Received weather request for city: Boston
+2025-03-13 04:10:37,194 - INFO - Received weather request for city: Boston
+2025-03-13 04:10:37,252 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:10:37,425 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:10:37,426 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:10:37,439 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:10:37,439 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:10:37,551 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:10:37,699 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:10:37,701 - INFO - Received weather request for city: Boston
+2025-03-13 04:10:37,703 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:10:37,705 - INFO - Received weather request for city: Boston
+2025-03-13 04:10:37,706 - INFO - Received weather request for city: Boston
+2025-03-13 04:10:37,760 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:10:37,942 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:10:37,942 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:10:37,965 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:10:37,965 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:10:37,971 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:10:37,972 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:10:38,065 - INFO - Received weather request for city: Boston
+2025-03-13 04:10:38,117 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:10:38,182 - INFO - Received weather request for city: Boston
+2025-03-13 04:10:38,330 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:10:38,331 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:10:38,444 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:10:38,444 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:10:38,667 - INFO - Received weather request for city: Boston
+2025-03-13 04:10:38,689 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:10:38,691 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:10:38,692 - INFO - Received weather request for city: Boston
+2025-03-13 04:10:38,692 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:10:38,692 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:10:38,718 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:10:38,862 - INFO - Received weather request for city: Boston
+2025-03-13 04:10:38,909 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:10:38,909 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:10:38,954 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:10:38,954 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:10:39,087 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:10:39,087 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:10:39,312 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:10:39,335 - INFO - Received weather request for city: Boston
+2025-03-13 04:10:39,350 - INFO - Received weather request for city: Boston
+2025-03-13 04:10:39,572 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:10:39,572 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:10:39,620 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:10:39,620 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:10:39,634 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:10:39,691 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:10:39,691 - INFO - Received weather request for city: Boston
+2025-03-13 04:10:39,692 - INFO - Received weather request for city: Boston
+2025-03-13 04:10:39,694 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:10:39,695 - INFO - Received weather request for city: Boston
+2025-03-13 04:10:39,927 - INFO - Received weather request for city: Boston
+2025-03-13 04:10:39,932 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:10:39,933 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:10:39,950 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:10:39,951 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:10:39,951 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:10:39,952 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:10:40,279 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:10:40,280 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:10:40,309 - INFO - Received weather request for city: Boston
+2025-03-13 04:10:40,395 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:10:40,556 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:10:40,556 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:10:40,703 - INFO - Received weather request for city: Boston
+2025-03-13 04:10:40,703 - INFO - Received weather request for city: Boston
+2025-03-13 04:10:40,703 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:10:40,704 - INFO - Received weather request for city: Boston
+2025-03-13 04:10:40,705 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:10:40,707 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:10:40,958 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:10:40,958 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:10:40,958 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:10:40,958 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:10:40,964 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:10:40,964 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:10:40,997 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:10:41,134 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:10:41,272 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:10:41,273 - INFO - Received weather request for city: Boston
+2025-03-13 04:10:41,305 - INFO - Received weather request for city: Boston
+2025-03-13 04:10:41,528 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:10:41,528 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:10:41,539 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:10:41,544 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:10:41,544 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:10:41,699 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:10:41,701 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:01,899 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:01,907 - INFO - Received weather request for city: Boston
+2025-03-13 04:11:02,168 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:11:02,168 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:11:02,169 - INFO - Received weather request for city: Boston
+2025-03-13 04:11:02,185 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:02,187 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:02,334 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:02,335 - INFO - Received weather request for city: Boston
+2025-03-13 04:11:02,402 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:11:02,402 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:11:02,404 - INFO - Received weather request for city: Boston
+2025-03-13 04:11:02,417 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:02,420 - INFO - Received weather request for city: Boston
+2025-03-13 04:11:02,428 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:02,430 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:02,601 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:11:02,601 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:11:02,602 - INFO - Received weather request for city: Boston
+2025-03-13 04:11:02,666 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:11:02,666 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:11:02,667 - INFO - Received weather request for city: Boston
+2025-03-13 04:11:02,712 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:11:02,713 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:11:02,714 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:02,854 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:11:02,854 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:11:02,919 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:11:02,920 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:11:03,185 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:03,332 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:03,337 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:03,483 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:03,502 - INFO - Received weather request for city: Boston
+2025-03-13 04:11:03,574 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:03,684 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:03,758 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:11:03,758 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:11:03,834 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:03,841 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:03,946 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:03,957 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:04,030 - INFO - Received weather request for city: Boston
+2025-03-13 04:11:04,052 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:04,078 - INFO - Received weather request for city: Boston
+2025-03-13 04:11:04,233 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:04,266 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:11:04,266 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:11:04,267 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:04,327 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:11:04,327 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:11:04,386 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:04,388 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:04,421 - INFO - Received weather request for city: Boston
+2025-03-13 04:11:04,464 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:04,470 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:04,490 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:04,515 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:04,579 - INFO - Received weather request for city: Boston
+2025-03-13 04:11:04,619 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:04,655 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:11:04,655 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:11:04,760 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:04,819 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:11:04,819 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:11:05,023 - INFO - Received weather request for city: Boston
+2025-03-13 04:11:05,057 - INFO - Received weather request for city: Boston
+2025-03-13 04:11:05,057 - INFO - Received weather request for city: Boston
+2025-03-13 04:11:05,282 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:11:05,282 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:11:05,338 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:11:05,338 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:11:05,339 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:11:05,339 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:11:05,409 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:05,437 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:05,439 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:05,982 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:05,983 - INFO - Received weather request for city: Boston
+2025-03-13 04:11:06,230 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:11:06,231 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:11:06,232 - INFO - Received weather request for city: Boston
+2025-03-13 04:11:06,458 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:11:06,458 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:11:06,459 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:07,894 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:07,895 - INFO - Received weather request for city: Boston
+2025-03-13 04:11:08,012 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:08,013 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:08,134 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:11:08,134 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:11:08,135 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:08,230 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:08,232 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:08,299 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:08,300 - INFO - Received weather request for city: Boston
+2025-03-13 04:11:08,530 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:11:08,530 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:11:08,532 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:13,470 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:13,473 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:13,481 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:13,483 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:13,515 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:13,517 - INFO - Received weather request for city: Boston
+2025-03-13 04:11:13,603 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:13,605 - INFO - Received weather request for city: Boston
+2025-03-13 04:11:13,694 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:13,696 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:13,757 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:11:13,757 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:11:13,759 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:13,837 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:11:13,837 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:11:13,838 - INFO - Received weather request for city: Boston
+2025-03-13 04:11:14,062 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:14,063 - INFO - Received weather request for city: Boston
+2025-03-13 04:11:14,065 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:11:14,066 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:11:14,066 - INFO - Received weather request for city: Boston
+2025-03-13 04:11:14,345 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:11:14,346 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:11:14,347 - INFO - Received weather request for city: Boston
+2025-03-13 04:11:14,486 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:11:14,486 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:11:14,590 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:11:14,590 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:11:14,701 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:14,793 - INFO - Received weather request for city: Boston
+2025-03-13 04:11:14,874 - INFO - Received weather request for city: Boston
+2025-03-13 04:11:15,025 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:15,220 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:11:15,220 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:11:15,221 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:15,225 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:11:15,225 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:11:15,310 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:15,560 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:15,564 - INFO - Received weather request for city: Boston
+2025-03-13 04:11:15,574 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:15,597 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:15,800 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:11:15,801 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:11:15,804 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:16,169 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:16,170 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:17,189 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:17,191 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:17,390 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:17,391 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:17,725 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:17,727 - INFO - Received weather request for city: Boston
+2025-03-13 04:11:18,216 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:11:18,216 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:11:18,218 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:18,252 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:18,254 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:18,354 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:18,356 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:18,748 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:18,749 - INFO - Received weather request for city: Boston
+2025-03-13 04:11:18,780 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:18,782 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:18,995 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:11:18,995 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:11:18,996 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:19,007 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:19,008 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:19,016 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:19,018 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:47,469 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:47,474 - INFO - Received weather request for city: Boston
+2025-03-13 04:11:47,537 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:47,538 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:47,656 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:47,658 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:47,739 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:11:47,739 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:11:47,741 - INFO - Received weather request for city: Boston
+2025-03-13 04:11:47,782 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:47,783 - INFO - Received weather request for city: Boston
+2025-03-13 04:11:47,788 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:47,790 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:47,807 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:47,809 - INFO - Received weather request for city: Boston
+2025-03-13 04:11:47,867 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:47,869 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:47,885 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:47,888 - INFO - Received weather request for city: Boston
+2025-03-13 04:11:47,998 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:11:47,999 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:11:48,000 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:48,005 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:48,027 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:11:48,027 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:11:48,070 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:11:48,070 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:11:48,163 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:11:48,163 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:11:48,301 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:48,503 - INFO - Received weather request for city: Boston
+2025-03-13 04:11:48,592 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:48,793 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:11:48,793 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:11:48,894 - INFO - Received weather request for city: Boston
+2025-03-13 04:11:48,960 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:49,008 - INFO - Received weather request for city: Boston
+2025-03-13 04:11:49,074 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:49,080 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:49,118 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:49,136 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:11:49,136 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:11:49,257 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:11:49,257 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:11:49,274 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:49,289 - INFO - Received weather request for city: Boston
+2025-03-13 04:11:49,319 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:49,376 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:49,390 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:49,405 - INFO - Received weather request for city: Boston
+2025-03-13 04:11:49,519 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:49,523 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:11:49,523 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:11:49,541 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:49,648 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:49,652 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:11:49,653 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:11:49,660 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:49,857 - INFO - Received weather request for city: Boston
+2025-03-13 04:11:49,882 - INFO - Received weather request for city: Boston
+2025-03-13 04:11:49,911 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:50,088 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:11:50,088 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:11:50,155 - INFO - Received weather request for city: Boston
+2025-03-13 04:11:50,350 - INFO - Received weather request for city: Boston
+2025-03-13 04:11:50,358 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:11:50,358 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:11:50,361 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:50,414 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:11:50,414 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:11:50,446 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:50,487 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:50,513 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:50,815 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:11:50,815 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:11:50,816 - INFO - Received weather request for city: Boston
+2025-03-13 04:11:51,043 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:11:51,043 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:11:51,044 - INFO - Received weather request for city: Boston
+2025-03-13 04:11:51,210 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:51,211 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:51,276 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:11:51,277 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:11:51,278 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:51,303 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:51,304 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:51,384 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:51,385 - INFO - Received weather request for city: Boston
+2025-03-13 04:11:51,614 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:11:51,614 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:11:51,615 - INFO - Received weather request for city: Boston
+2025-03-13 04:11:51,669 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:51,671 - INFO - Received weather request for city: Boston
+2025-03-13 04:11:51,860 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:11:51,860 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:11:51,877 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:51,911 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:11:51,911 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:11:52,168 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:56,834 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:56,838 - INFO - Received weather request for city: Boston
+2025-03-13 04:11:57,069 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:57,070 - INFO - Received weather request for city: Boston
+2025-03-13 04:11:57,092 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:11:57,093 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:11:57,094 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:57,303 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:11:57,303 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:11:57,304 - INFO - Received weather request for city: Boston
+2025-03-13 04:11:57,528 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:11:57,528 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:11:57,529 - INFO - Received weather request for city: Boston
+2025-03-13 04:11:57,762 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:11:57,762 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:11:57,763 - INFO - Received weather request for city: Boston
+2025-03-13 04:11:57,991 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:11:57,992 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:11:57,993 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:58,538 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:58,542 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:59,291 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:59,293 - INFO - Received weather request for city: Boston
+2025-03-13 04:11:59,550 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:59,551 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:11:59,551 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:11:59,552 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:59,554 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:11:59,962 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:11:59,964 - INFO - Received weather request for city: Boston
+2025-03-13 04:12:00,121 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:00,122 - INFO - Received weather request for city: Boston
+2025-03-13 04:12:00,323 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:12:00,324 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:12:00,325 - INFO - Received weather request for city: Boston
+2025-03-13 04:12:00,393 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:12:00,393 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:12:00,395 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:12:00,564 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:12:00,564 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:12:00,565 - INFO - Received weather request for city: Boston
+2025-03-13 04:12:00,809 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:12:00,809 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:12:00,810 - INFO - Received weather request for city: Boston
+2025-03-13 04:12:01,037 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:12:01,037 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:12:01,038 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:12:01,767 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:01,768 - INFO - Received weather request for city: Boston
+2025-03-13 04:12:02,005 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:12:02,006 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:12:02,007 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:12:02,176 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:02,177 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:12:02,319 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:02,321 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:12:02,939 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:02,941 - INFO - Received weather request for city: Boston
+2025-03-13 04:12:02,978 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:02,980 - INFO - Received weather request for city: Boston
+2025-03-13 04:12:03,190 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:12:03,191 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:12:03,194 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:12:03,235 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:12:03,235 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:12:03,236 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:12:03,720 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:03,721 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:12:04,637 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:04,638 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:12:04,766 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:04,767 - INFO - Received weather request for city: Boston
+2025-03-13 04:12:05,101 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:05,104 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:05,105 - INFO - Received weather request for city: Boston
+2025-03-13 04:12:05,107 - INFO - Received weather request for city: Boston
+2025-03-13 04:12:05,117 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:12:05,117 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:12:05,118 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:12:05,203 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:05,204 - INFO - Received weather request for city: Boston
+2025-03-13 04:12:05,345 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:05,346 - INFO - Received weather request for city: Boston
+2025-03-13 04:12:05,366 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:12:05,366 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:12:05,369 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:12:05,376 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:12:05,376 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:12:05,378 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:12:05,455 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:12:05,455 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:12:05,457 - INFO - Received weather request for city: Boston
+2025-03-13 04:12:06,001 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:12:06,001 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:12:06,004 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:12:06,007 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:12:06,007 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:12:06,169 - INFO - Received weather request for city: Boston
+2025-03-13 04:12:06,402 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:12:06,402 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:12:06,404 - INFO - Received weather request for city: Boston
+2025-03-13 04:12:06,632 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:12:06,632 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:12:06,633 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:12:34,880 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:34,885 - INFO - Received weather request for city: Boston
+2025-03-13 04:12:34,996 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:34,998 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:12:35,237 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:12:35,237 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:12:35,239 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:12:35,497 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:35,498 - INFO - Received weather request for city: Boston
+2025-03-13 04:12:35,735 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:12:35,735 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:12:35,736 - INFO - Received weather request for city: Boston
+2025-03-13 04:12:35,807 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:35,808 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:12:35,816 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:35,818 - INFO - Received weather request for city: Boston
+2025-03-13 04:12:35,969 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:12:35,969 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:12:35,970 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:12:36,027 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:36,029 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:12:36,057 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 04:12:36,057 - INFO - Preprocessed weather data for Boston
+2025-03-13 04:12:36,058 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 04:12:36,641 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:36,936 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:37,641 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:37,648 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:37,652 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:37,760 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:37,805 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:37,933 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:37,997 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:38,062 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:38,395 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:38,491 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:38,660 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:39,022 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:39,040 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:41,191 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:41,214 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:41,515 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:41,526 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:41,549 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:41,817 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:41,842 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:41,948 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:42,038 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:42,179 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:42,325 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:42,331 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:42,349 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:42,372 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:42,470 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:42,607 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:42,734 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:42,741 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:42,745 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:45,912 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:45,923 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:45,998 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:46,068 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:46,119 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 04:12:46,136 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
