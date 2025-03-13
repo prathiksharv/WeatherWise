@@ -1,0 +1,9 @@
+{
+    "city": "Boston",
+    "weather_data": {
+      "temperature": 22.5,
+      "description": "clear sky"
+    },
+    "query": "Is it sunny?"
+  }
+  
