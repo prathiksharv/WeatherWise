@@ -494,3 +494,87 @@
 2025-02-02 20:29:45,455 - INFO - LLM responded for query 'is it daytime or nighttime in Miami now': The temperature in Miami is 23.619999999999997, the humidity is 86, the wind speed is 10.23, and the pressure is 1021.
 2025-02-02 20:29:59,540 - INFO - City, Weather Data and Query recieved to backend: Miami, {'temperature': 23.619999999999997, 'feels_like': 25.315, 'humidity': 86, 'wind_speed': 10.23, 'pressure': 1021, 'description': 'clear sky; Clear'}, is it humid in Miami today
 2025-02-02 20:30:02,029 - INFO - LLM responded for query 'is it humid in Miami today': The temperature in Miami is 23.619999999999997 and the humidity is 86. The wind speed is 10.23 and the pressure is 1021.
+2025-02-02 20:35:17,985 - INFO - City selected: San Francisco
+2025-02-02 20:35:17,994 - INFO - Received weather request for city: San Francisco
+2025-02-02 20:35:18,514 - INFO - Fetched weather data for San Francisco from both APIs
+2025-02-02 20:35:18,515 - INFO - Preprocessed weather data for San Francisco
+2025-02-02 20:35:18,517 - INFO - Weather data fetched successfully for San Francisco: {"city":"San Francisco","data":{"temperature":{"api_1":13.78,"api_2":15.4},"feels_like":{"api_1":13.62,"api_2":15.4},"humidity":{"api_1":92,"api_2":100},"pressure":{"api_1":1015,"api_2":1016},"wind_speed":{"api_1":6.26,"api_2":25.6},"description":{"api_1":"mist","api_2":"Light rain"},"summary":"API 1: mist (13.78°C, Humidity: 92%)\nAPI 2: Light rain (15.4°C, Humidity: 100%)"}}
+2025-02-02 20:35:18,526 - INFO - Displaying weather data for city: San Francisco
+2025-02-02 20:35:18,528 - INFO - Displaying weather data for city: San Francisco
+2025-02-02 20:35:20,574 - INFO - City selected: New York
+2025-02-02 20:35:20,577 - INFO - Received weather request for city: New York
+2025-02-02 20:35:20,952 - INFO - Fetched weather data for New York from both APIs
+2025-02-02 20:35:20,952 - INFO - Preprocessed weather data for New York
+2025-02-02 20:35:20,955 - INFO - Weather data fetched successfully for New York: {"city":"New York","data":{"temperature":{"api_1":-1.2,"api_2":-1.7},"feels_like":{"api_1":-5.02,"api_2":-6.6},"humidity":{"api_1":85,"api_2":82},"pressure":{"api_1":1025,"api_2":1026},"wind_speed":{"api_1":3.09,"api_2":15.5},"description":{"api_1":"light snow","api_2":"Light snow"},"summary":"API 1: light snow (-1.2°C, Humidity: 85%)\nAPI 2: Light snow (-1.7°C, Humidity: 82%)"}}
+2025-02-02 20:35:20,964 - INFO - Displaying weather data for city: New York
+2025-02-02 20:35:20,965 - INFO - Displaying weather data for city: New York
+2025-02-02 20:35:23,315 - INFO - City selected: Boston
+2025-02-02 20:35:23,326 - INFO - Received weather request for city: Boston
+2025-02-02 20:35:23,710 - INFO - Fetched weather data for Boston from both APIs
+2025-02-02 20:35:23,710 - INFO - Preprocessed weather data for Boston
+2025-02-02 20:35:23,713 - INFO - Weather data fetched successfully for Boston: {"city":"Boston","data":{"temperature":{"api_1":-2.35,"api_2":-2.2},"feels_like":{"api_1":-8.52,"api_2":-5.5},"humidity":{"api_1":74,"api_2":69},"pressure":{"api_1":1028,"api_2":1028},"wind_speed":{"api_1":6.17,"api_2":8.6},"description":{"api_1":"overcast clouds","api_2":"Overcast"},"summary":"API 1: overcast clouds (-2.35°C, Humidity: 74%)\nAPI 2: Overcast (-2.2°C, Humidity: 69%)"}}
+2025-02-02 20:35:23,725 - INFO - Displaying weather data for city: Boston
+2025-02-02 20:35:23,725 - INFO - Displaying weather data for city: Boston
+2025-02-02 20:35:26,784 - INFO - City selected: Seattle
+2025-02-02 20:35:26,787 - INFO - Received weather request for city: Seattle
+2025-02-02 20:35:27,119 - INFO - Fetched weather data for Seattle from both APIs
+2025-02-02 20:35:27,120 - INFO - Preprocessed weather data for Seattle
+2025-02-02 20:35:27,127 - INFO - Weather data fetched successfully for Seattle: {"city":"Seattle","data":{"temperature":{"api_1":1.87,"api_2":2.2},"feels_like":{"api_1":-3.38,"api_2":-2.1},"humidity":{"api_1":87,"api_2":82},"pressure":{"api_1":1010,"api_2":1010},"wind_speed":{"api_1":6.69,"api_2":17.6},"description":{"api_1":"light rain","api_2":"Partly cloudy"},"summary":"API 1: light rain (1.87°C, Humidity: 87%)\nAPI 2: Partly cloudy (2.2°C, Humidity: 82%)"}}
+2025-02-02 20:35:27,143 - INFO - Displaying weather data for city: Seattle
+2025-02-02 20:35:27,143 - INFO - Displaying weather data for city: Seattle
+2025-02-02 20:35:29,621 - INFO - City selected: Chicago
+2025-02-02 20:35:29,625 - INFO - Received weather request for city: Chicago
+2025-02-02 20:35:29,979 - INFO - Fetched weather data for Chicago from both APIs
+2025-02-02 20:35:29,979 - INFO - Preprocessed weather data for Chicago
+2025-02-02 20:35:29,981 - INFO - Weather data fetched successfully for Chicago: {"city":"Chicago","data":{"temperature":{"api_1":4.79,"api_2":6.1},"feels_like":{"api_1":4.79,"api_2":4.5},"humidity":{"api_1":85,"api_2":76},"pressure":{"api_1":1016,"api_2":1016},"wind_speed":{"api_1":0.45,"api_2":7.6},"description":{"api_1":"overcast clouds","api_2":"Partly cloudy"},"summary":"API 1: overcast clouds (4.79°C, Humidity: 85%)\nAPI 2: Partly cloudy (6.1°C, Humidity: 76%)"}}
+2025-02-02 20:35:29,996 - INFO - Displaying weather data for city: Chicago
+2025-02-02 20:35:29,996 - INFO - Displaying weather data for city: Chicago
+2025-02-02 20:35:32,608 - INFO - City selected: Miami
+2025-02-02 20:35:32,610 - INFO - Received weather request for city: Miami
+2025-02-02 20:35:32,963 - INFO - Fetched weather data for Miami from both APIs
+2025-02-02 20:35:32,963 - INFO - Preprocessed weather data for Miami
+2025-02-02 20:35:32,965 - INFO - Weather data fetched successfully for Miami: {"city":"Miami","data":{"temperature":{"api_1":23.34,"api_2":23.9},"feels_like":{"api_1":24.03,"api_2":26.6},"humidity":{"api_1":88,"api_2":84},"pressure":{"api_1":1021,"api_2":1021},"wind_speed":{"api_1":5.66,"api_2":14.8},"description":{"api_1":"clear sky","api_2":"Clear"},"summary":"API 1: clear sky (23.34°C, Humidity: 88%)\nAPI 2: Clear (23.9°C, Humidity: 84%)"}}
+2025-02-02 20:35:32,974 - INFO - Displaying weather data for city: Miami
+2025-02-02 20:35:32,975 - INFO - Displaying weather data for city: Miami
+2025-03-13 02:02:25,891 - INFO - City selected: New York
+2025-03-13 02:02:25,895 - INFO - Received weather request for city: New York
+2025-03-13 02:02:26,487 - INFO - Fetched weather data for New York from both APIs
+2025-03-13 02:02:26,487 - INFO - Preprocessed weather data for New York
+2025-03-13 02:02:26,490 - INFO - Weather data fetched successfully for New York: {"city":"New York","data":{"temperature":{"api_1":5.32,"api_2":6.1},"feels_like":{"api_1":1.67,"api_2":2.6},"humidity":{"api_1":73,"api_2":68},"pressure":{"api_1":1018,"api_2":1019},"wind_speed":{"api_1":5.14,"api_2":18.7},"description":{"api_1":"scattered clouds","api_2":"Partly cloudy"},"summary":"API 1: scattered clouds (5.32°C, Humidity: 73%)\nAPI 2: Partly cloudy (6.1°C, Humidity: 68%)"}}
+2025-03-13 02:02:26,501 - INFO - Displaying weather data for city: New York
+2025-03-13 02:02:26,502 - INFO - Displaying weather data for city: New York
+2025-03-13 02:02:38,283 - INFO - City, Weather Data and Query recieved to backend: New York, {'temperature': 5.71, 'feels_like': 2.135, 'humidity': 70.5, 'wind_speed': 11.92, 'pressure': 1018.5, 'description': 'scattered clouds; Partly cloudy'}, what is the temperature
+2025-03-13 02:02:42,394 - INFO - LLM responded for query 'what is the temperature': The temperature in New York is 5.71 degrees Fahrenheit and the humidity is 70.5.
+2025-03-13 03:14:42,754 - INFO - Received weather request for city: Boston
+2025-03-13 03:14:43,157 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 03:14:43,157 - INFO - Preprocessed weather data for Boston
+2025-03-13 03:14:43,160 - INFO - HTTP Request: POST http://testserver/weather/ "HTTP/1.1 200 OK"
+2025-03-13 03:14:43,165 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 03:14:43,167 - INFO - LLM responded for query 'Is it sunny?': <MagicMock name='mock.T5Tokenizer.from_pretrained().decode()' id='4371668320'>
+2025-03-13 03:14:43,171 - INFO - HTTP Request: POST http://testserver/query/ "HTTP/1.1 200 OK"
+2025-03-13 03:22:20,347 - INFO - Received weather request for city: Boston
+2025-03-13 03:22:20,745 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 03:22:20,745 - INFO - Preprocessed weather data for Boston
+2025-03-13 03:22:20,748 - INFO - HTTP Request: POST http://testserver/weather/ "HTTP/1.1 200 OK"
+2025-03-13 03:22:20,753 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 03:22:20,755 - INFO - LLM responded for query 'Is it sunny?': <MagicMock name='mock.T5Tokenizer.from_pretrained().decode()' id='4380275632'>
+2025-03-13 03:22:20,757 - INFO - HTTP Request: POST http://testserver/query/ "HTTP/1.1 200 OK"
+2025-03-13 03:26:09,867 - INFO - Received weather request for city: Boston
+2025-03-13 03:26:10,283 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 03:26:10,283 - INFO - Preprocessed weather data for Boston
+2025-03-13 03:26:10,286 - INFO - HTTP Request: POST http://testserver/weather/ "HTTP/1.1 200 OK"
+2025-03-13 03:26:10,290 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 03:26:10,292 - INFO - LLM responded for query 'Is it sunny?': <MagicMock name='mock.T5Tokenizer.from_pretrained().decode()' id='4341494224'>
+2025-03-13 03:26:10,294 - INFO - HTTP Request: POST http://testserver/query/ "HTTP/1.1 200 OK"
+2025-03-13 03:27:08,671 - INFO - Received weather request for city: Boston
+2025-03-13 03:27:09,046 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 03:27:09,046 - INFO - Preprocessed weather data for Boston
+2025-03-13 03:27:09,048 - INFO - HTTP Request: POST http://testserver/weather/ "HTTP/1.1 200 OK"
+2025-03-13 03:27:09,052 - INFO - HTTP Request: POST http://testserver/weather/ "HTTP/1.1 422 Unprocessable Entity"
+2025-03-13 03:27:09,054 - INFO - HTTP Request: POST http://testserver/weather/ "HTTP/1.1 422 Unprocessable Entity"
+2025-03-13 03:27:49,517 - INFO - Received weather request for city: Boston
+2025-03-13 03:27:49,768 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 03:27:49,768 - INFO - Preprocessed weather data for Boston
+2025-03-13 03:27:49,770 - INFO - HTTP Request: POST http://testserver/weather/ "HTTP/1.1 200 OK"
+2025-03-13 03:27:49,772 - INFO - HTTP Request: POST http://testserver/weather/ "HTTP/1.1 422 Unprocessable Entity"
+2025-03-13 03:27:49,774 - INFO - HTTP Request: POST http://testserver/weather/ "HTTP/1.1 422 Unprocessable Entity"
