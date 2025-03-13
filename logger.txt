@@ -586,3 +586,6 @@
 2025-03-13 03:39:53,868 - INFO - Received weather request for city: InvalidCity
 2025-03-13 03:39:54,044 - ERROR - Error fetching weather data for InvalidCity: Error from OpenWeather API: {"cod":"404","message":"city not found"}
 2025-03-13 03:39:54,061 - INFO - Test log
+2025-03-13 03:48:06,431 - INFO - Received weather request for city: Boston
+2025-03-13 03:48:07,106 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 03:48:07,106 - INFO - Preprocessed weather data for Boston

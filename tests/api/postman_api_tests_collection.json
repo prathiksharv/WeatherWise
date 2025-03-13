@@ -1,0 +1,143 @@
+{
+    "info": {
+        "name": "WeatherWise API",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Fetch Weather Data",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"city\": \"Boston\"}"
+                },
+                "url": {
+                    "raw": "http://127.0.0.1:8000/weather/",
+                    "host": [
+                        "127.0.0.1"
+                    ],
+                    "port": "8000",
+                    "path": [
+                        "weather"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Process Query",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"city\": \"Boston\", \"weather_data\": {\"temperature\": 22.5, \"description\": \"clear sky\"}, \"query\": \"Is it sunny?\"}"
+                },
+                "url": {
+                    "raw": "http://127.0.0.1:8000/query/",
+                    "host": [
+                        "127.0.0.1"
+                    ],
+                    "port": "8000",
+                    "path": [
+                        "query"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Invalid City Test",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"city\": \"InvalidCity\"}"
+                },
+                "url": {
+                    "raw": "http://127.0.0.1:8000/weather/",
+                    "host": [
+                        "127.0.0.1"
+                    ],
+                    "port": "8000",
+                    "path": [
+                        "weather"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Missing Weather Data",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"city\": \"Boston\", \"query\": \"Is it sunny?\"}"
+                },
+                "url": {
+                    "raw": "http://127.0.0.1:8000/query/",
+                    "host": [
+                        "127.0.0.1"
+                    ],
+                    "port": "8000",
+                    "path": [
+                        "query"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Log Message Test",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"level\": \"info\", \"message\": \"Test log message\"}"
+                },
+                "url": {
+                    "raw": "http://127.0.0.1:8000/log/",
+                    "host": [
+                        "127.0.0.1"
+                    ],
+                    "port": "8000",
+                    "path": [
+                        "log"
+                    ]
+                }
+            },
+            "response": []
+        }
+    ]
+}
