@@ -578,3 +578,11 @@
 2025-03-13 03:27:49,770 - INFO - HTTP Request: POST http://testserver/weather/ "HTTP/1.1 200 OK"
 2025-03-13 03:27:49,772 - INFO - HTTP Request: POST http://testserver/weather/ "HTTP/1.1 422 Unprocessable Entity"
 2025-03-13 03:27:49,774 - INFO - HTTP Request: POST http://testserver/weather/ "HTTP/1.1 422 Unprocessable Entity"
+2025-03-13 03:39:49,717 - INFO - Received weather request for city: Boston
+2025-03-13 03:39:50,115 - INFO - Fetched weather data for Boston from both APIs
+2025-03-13 03:39:50,115 - INFO - Preprocessed weather data for Boston
+2025-03-13 03:39:50,125 - INFO - City, Weather Data and Query recieved to backend: Boston, {'temperature': 22.5, 'description': 'clear sky'}, Is it sunny?
+2025-03-13 03:39:53,858 - INFO - LLM responded for query 'Is it sunny?': Yes, it is clear with a temperature of 22.5 degrees.
+2025-03-13 03:39:53,868 - INFO - Received weather request for city: InvalidCity
+2025-03-13 03:39:54,044 - ERROR - Error fetching weather data for InvalidCity: Error from OpenWeather API: {"cod":"404","message":"city not found"}
+2025-03-13 03:39:54,061 - INFO - Test log
